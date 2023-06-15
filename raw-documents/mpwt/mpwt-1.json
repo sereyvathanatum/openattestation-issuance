@@ -1,0 +1,32 @@
+{
+    "$template": {
+        "name": "MPWT_DRIVING_LICENSE",
+        "type": "EMBEDDED_RENDERER",
+        "url": "https://attestation.mpwt.gov.kh"
+    },
+    "id": "e0825708-7c66-4b56-b6a0-56b7673043b6",
+    "issuers": [
+    {
+        "documentStore": "0x02CBf49b94A1893844dD65addb350c8d2894B61C",
+        "identityProof": {
+            "location": "attestation.mpwt.gov.kh",
+            "type": "DNS-TXT"
+        },
+        "name": "CamDigiKey",
+        "url": "https://attestation.mpwt.gov.kh"
+    }
+    ],
+    "recipient": {
+        "id": "067484027",
+        "dateOfBirth": "2004-10-16",
+        "issueDate" : "2018-02-11",
+        "expireDate" : "2024-02-11",
+        "gender": "M",
+        "firstName": "Mengsar",
+        "lastName": "Hour",
+        "idNumber" : "010459256",
+        "category" : "B",
+        "nationality": "kh",
+        "specialCondition" : "Auto"
+    }
+}

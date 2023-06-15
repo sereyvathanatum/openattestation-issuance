@@ -1,0 +1,88 @@
+{
+  "data": {
+    "$template": {
+      "name": "18a7af85-11a1-4458-a82a-9a8d43425e3f:string:MOEYS_BACII_CERTIFICATE",
+      "type": "7aa28ba2-315a-4dda-a199-af1ec28bfe8a:string:EMBEDDED_RENDERER",
+      "url": "411723bd-a369-42dd-aecf-742d1bfde703:string:https://renderer.verify.gov.kh"
+    },
+    "id": "fe4ab28b-27e9-4581-9b77-281abd66e1e5:string:00a21879-62a5-40e3-9bf7-4263a3ace639",
+    "issuers": [
+      {
+        "documentStore": "9c0c9b20-1f3a-4881-a3b7-6f64bbe6fe5c:string:0xD2225E6C4a2004C9110A31A4E343593966d2567B",
+        "identityProof": {
+          "location": "0d95aac4-61d6-427b-a519-2a8626bf6b63:string:verify.gov.kh",
+          "type": "116b9355-10fc-441d-ac83-ba3bc09424f7:string:DNS-TXT"
+        },
+        "name": "b3a34c37-5df5-4d69-87bc-1c15f93311d4:string:Digital Government Committee",
+        "url": "8eceb7e8-38be-42d7-9a33-ec8fa0c6c9e5:string:https://verify.gov.kh"
+      }
+    ],
+    "recipient": {
+      "dateOfBirth": "a77d4e84-20b3-48ca-a34b-b6280815ad46:string:១៦ តុលា ២០០៤",
+      "fatherName": "d09f651a-5497-4a8b-8147-f78b16d89da6:string:អៀ ប៉ោហួរ",
+      "gender": "063d85ae-31c2-417b-a9f4-72a416179d37:string:ប្រុស",
+      "id": "145ead53-45b9-4f5f-bd28-a41e659bf917:string:300386",
+      "motherName": "27e6d726-fed2-45c3-a7e6-785eb352767c:string:ថេង ស៊ាងហ៊ត់",
+      "name": "41cb6fec-57d4-4081-8554-63d9e2b457e9:string:ហួរ ម៉េងសា",
+      "originalPhotoPath": "66de24db-aeb7-48d8-8e2d-7ee00e02d368:string:Photos\\12\\141010039011\\141010039011121000071.jpg",
+      "photoUrl": "609e8453-7391-435b-9fa7-71b9d08357d8:string:https://storage.verify.gov.kh/moeys/2022/bb49d3e7-2dba-42d0-9ef1-8b37ddbf1dc8.jpg",
+      "placeOfBirth": "96feab58-fc18-48d9-884b-52964bc733c6:string:ខេត្តព្រៃវែង"
+    }
+  },
+  "signature": {
+    "merkleRoot": "84cf4daf109458c2be18b8f081d2dcdc359b4b04c82bff7e18f69f57fe251945",
+    "proof": [
+      "625ba0094089071c2553ce74d7584d62bdf17827b855f74fc0098627434079ec",
+      "17de4331f35aaa2e746e1add8a70f5e38082ae5037f6d52f3ab100a3e85c0ee5",
+      "00b8668caaa2f1b3d480a87d104f14673a7ffaa707ef16269efe1a7f0e813ea8",
+      "b27967b4e6fb12e853a1c2ba75048d518155b28a194676fbe4ed736c73dbba05",
+      "06b684b5927a90aaace8093cc1a2dd61720c35f3d576bcc9ae2a330129c508c6",
+      "ec06ea8b868e040567f425d54e301e5c4543c0294fcc3c668c3c80614f76fbbc",
+      "23b3041ce4719afe6060e4952fcd5b3c6f800901413ea7e5ba1143a007a425d8",
+      "d0461f9be919c1b3d7a45842e30c423d60878ddd4fd5de264acdb337e2e68361",
+      "59ec0717c65de83eca07c599c6258317cb5c78179ba34dd556886d7ee3c13611",
+      "32c0b8890a57bc9a79b8b1917312bd95b63c792c3586153b57b396cee00d52aa",
+      "3591143e1988acd49dcc043299454a664b9cc9095b6b15466c22a5ee6f4b501b",
+      "168a5f6c9a2b8ecb6f6c260ca84b574c29860134e99c62b5b93301926f991439",
+      "386b97cf2512914c5b3d7b5e538066a2eb290b04aadbbc065fa134a467c207ec",
+      "6c5c417876ce5688a9570db30693411740405916215c6232a19d8bea84ba8f00",
+      "a7c66c80a9d233ea46e31b1aee3e3b091ee7aad37d82acdeedfa783b24a84cca",
+      "2a647e46321ed25142679cf6a3f346b5ac2104afc341f9a8a8e7ed2ea32dd146",
+      "c3a0809bbe52c00ecd2ea12e9d111d19a91828c5ab6861254d56d72fe0f34923"
+    ],
+    "targetHash": "5059398136de28f74c31c7e3d7ca024f074e53792211a42863a3c8300aa20faf",
+    "type": "SHA3MerkleProof"
+  },
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "privacy": {
+    "obfuscatedData": [
+      "a02b05408ce4d64b68881b4e984f2cfc440c33894aa4580d76f2d581e44f7df4",
+      "b3f96fe4a6c8e4a642d73bd477139ab7d2d6a5b04555bf0f721427734e6e3b4d",
+      "848aa5ab3049f40fbc8fe64043f5585084841fc3006fb1f498098a9477746a35",
+      "feffc85db4afa5e8a1c496b2d8b46751e1906ba202d8a3a2fe22852d820595d2",
+      "f4465cabb731932a9a490369d07c5b0a91c13bab55c67e0a97cd4c95d2bfcdc0",
+      "09c347b375cff01e69582e278a15058f05be288c964f35dc5d7427911eb5d188",
+      "35af26679cb1c580e89e5dd71b88f411a5c099d13d09ddaf816a086a891db9db",
+      "528094e99ab265e978f83be19ce57da76533d0a0b39b897326be16b966b3b2a6",
+      "1610f10c27ebd40fdaa1b1e21aa180926d31a0e35f25f5bb4db2ef925761df85",
+      "481c481584cf9b4390d0a762eca994e89dc23cbdd0d5a0d47ac699e8aae2587a",
+      "9d876e51eac21079f5da8b58001a712cd71d33b4017cb468d7f2e4dc3d96641b",
+      "5150a7b142bacf08a5b59441959605f7388f485fff3b851968d296a30c59b10f",
+      "1229a6f6b5a9974fb5b6084c405418ed43a2811d36c3a50d9c8e92a3cc941ea2",
+      "d555e5eb7ad79605a50a03d8983baa66248b7187a8cb27ccce0264ddd7e6a23d",
+      "59eb7dbc492b21d9fd7fbe4ea66722a063580b2e61614f5bed99aeff92905755",
+      "511cf1cd6c96d25610a7bae2e96bf81d811a55a912a4aed0f35f814f92cba603",
+      "ccaafbe17adc7a320d52d6207e750eade46eedd2b1b7d1c29c50f4d6fcd5e168",
+      "ef1dab316c52f5dceb917c38eaa2a924b3749186862a1a972f1dc6a3faa571e4",
+      "ad021d2cc4afc3621db1eb63ff20ae20c1ae3697f32eafe644f54d1670fb0d38",
+      "aab696849e0822b9114556322b632de89008e6743be651de72ad2798be969db5",
+      "93fb5fd9a5e1fea8e386c486036ddf5c76cc94c895dbea574fac8f20e8163a02",
+      "151fbfe2c75fb459c3efae73df4cab05723a6173276965463d18cb6ababd59dd",
+      "22f3b2dba19d7e2a383738ce3e48932415d5b63f12f12cc484e13520a5f42c23",
+      "f8e2c44c82084426be223c9e8e10382340cf28d1e3985953155b72a4e9dd5f16",
+      "176acf5e6c5872159bec2a75b7e7bc530b0857cad5c624a8573d470e7d6d6b47",
+      "6c3c583bd15f692056dd76f083f1953f2c29a1bea6d2e9da499994d2d1acfa3d",
+      "48d5faf680f9c3ef774f5c056606e7cd63f7b267a27c2d1c4c920db02349387b"
+    ]
+  }
+}

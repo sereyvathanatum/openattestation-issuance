@@ -1,0 +1,30 @@
+{
+    "$template": {
+        "name": "CAMDIGIKEY_KYC_ATTESTATION",
+        "type": "EMBEDDED_RENDERER",
+        "url": "https://renderer.camdigikey.gov.kh"
+    },
+    "id": "5777f055-4f6f-41d9-8ac4-9b0e7fc03157",
+    "issuers": [
+    {
+        "documentStore": "0xcDa703b6eB604DC6583C0804A1362a6258546784",
+        "identityProof": {
+            "location": "attestation.camdigikey.gov.kh",
+            "type": "DNS-TXT"
+        },
+        "name": "CamDigiKey",
+        "url": "https://attestation.camdigikey.gov.kh"
+    }
+    ],
+    "recipient": {
+        "dateOfBirth": "2004-10-16",
+        "issueDate" : "2020-06-15",
+        "expireDate" : "2025-06-15",
+        "gender": "M",
+        "nationality": "kh",
+        "camDigiKeyId": "ao7u2kvyiq",
+        "firstName": "Mengsar",
+        "lastName": "Hour",
+        "idNumber" : "010459256"
+    }
+}

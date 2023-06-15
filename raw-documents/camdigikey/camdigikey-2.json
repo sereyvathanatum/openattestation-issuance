@@ -1,0 +1,31 @@
+{
+    "$template": {
+        "name": "CAMDIGIKEY_KYC_ATTESTATION",
+        "type": "EMBEDDED_RENDERER",
+        "url": "https://renderer.camdigikey.gov.kh"
+    },
+    "id": "5ecd4523-4a8e-4834-afa0-654657ea0cf9",
+    "issuers": [
+    {
+        "documentStore": "0xcDa703b6eB604DC6583C0804A1362a6258546784",
+        "identityProof": {
+            "location": "attestation.camdigikey.gov.kh",
+            "type": "DNS-TXT"
+        },
+        "name": "CamDigiKey",
+        "url": "https://attestation.camdigikey.gov.kh"
+    }
+    ],
+    "recipient": {
+        "dateOfBirth": "2001-11-12",
+        "issueDate" : "2021-04-11",
+        "expireDate" : "2026-04-11",
+        "gender": "M",
+        "nationality": "kh",
+        "camDigiKeyId": "ao7u2kvm6a",
+        "firstName": "Radek",
+        "lastName": "Jarle",
+        "idNumber" : "",
+        "passportNumber": "N01285235"
+    }
+}
