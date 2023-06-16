@@ -1,15 +1,15 @@
 CAMDIGIKEY_DIR = ./wrapped-document/camdigikey/*
 MPWT_DIR = ./wrapped-document/mpwt/*
-attest:
-	rm -rf ./wrapped-document
-	rm -rf ./obfuscated
+wrap:
 	mkdir -p ./wrapped-document/camdigikey
 	mkdir -p ./wrapped-document/mpwt
+	open-attestation wrap ./raw-documents/camdigikey --output-dir ./wrapped-document/camdigikey
+	open-attestation wrap ./raw-documents/mpwt --output-dir ./wrapped-document/mpwt
+privacy:
 	mkdir -p ./obfuscated/camdigikey/
 	mkdir -p ./obfuscated/mpwt/
 	mkdir -p ./obfuscated/moeys/
-	open-attestation wrap ./raw-documents/camdigikey --output-dir ./wrapped-document/camdigikey
-	open-attestation wrap ./raw-documents/mpwt --output-dir ./wrapped-document/mpwt
+	
 	for file in $(CAMDIGIKEY_DIR) ; do \
 		open-attestation filter ./wrapped-document/camdigikey/$$(basename $${file}) ./obfuscated/camdigikey/$$(basename $${file}) recipient.idNumber recipient.issueDate recipient.expireDate recipient.gender recipient.nationality recipient.camDigiKeyId ; \
 	done
