@@ -1,0 +1,137 @@
+{
+  "templates": [
+    {
+      "id": 1,
+      "name": "MOEYS_BACII_CERTIFICATE",
+      "issuer": "verify.gov.kh"
+    },
+    {
+      "id": 2,
+      "name": "CAMDIGIKEY_KYC_ATTESTATION",
+      "issuer": "attestation.techostartup.center"
+    },
+    {
+      "id": 3,
+      "name": "MPWT_DRIVING_LICENSE",
+      "issuer": "attestation.mpwt.gov.kh"
+    }
+  ],
+  "data": [
+    {
+      "field": "firstName",
+      "fieldTemplate": [
+        {
+          "id": 1,
+          "field": "recipient.firstName"
+        },
+        {
+          "id": 2,
+          "field": "recipient.firstName"
+        },
+        {
+          "id": 3,
+          "field": "recipient.firstName"
+        }
+      ]
+    },
+    {
+      "field": "lastName",
+      "fieldTemplate": [
+        {
+          "id": 1,
+          "field": "recipient.lastName"
+        },
+        {
+          "id": 2,
+          "field": "recipient.lastName"
+        },
+        {
+          "id": 3,
+          "field": "recipient.lastName"
+        }
+      ]
+    },
+    {
+      "field": "dob",
+      "fieldTemplate": [
+        {
+          "id": 2,
+          "field": "recipient.dateOfBirth"
+        }
+      ]
+    },
+    {
+      "field": "gender",
+      "fieldTemplate": [
+        {
+          "id": 2,
+          "field": "recipient.gender"
+        }
+      ]
+    },
+    {
+      "field": "idNumber",
+      "fieldTemplate": [
+        {
+          "id": 2,
+          "field": "recipient.idNumber"
+        }
+      ]
+    },
+    {
+      "field": "bac2Grade",
+      "fieldTemplate": [
+        {
+          "id": 1,
+          "field": "certificate.grade"
+        }
+      ]
+    },
+    {
+      "field": "bac2Score",
+      "fieldTemplate": [
+        {
+          "id": 1,
+          "field": "certificate.rank"
+        }
+      ]
+    },
+    {
+      "field": "bac2Year",
+      "fieldTemplate": [
+        {
+          "id": 1,
+          "field": "certificate.year"
+        }
+      ]
+    },
+    {
+      "field": "licenseCategory",
+      "fieldTemplate": [
+        {
+          "id": 3,
+          "field": "recipient.category"
+        }
+      ]
+    },
+    {
+      "field": "licenseIss",
+      "fieldTemplate": [
+        {
+          "id": 3,
+          "field": "recipient.issueDate"
+        }
+      ]
+    },
+    {
+      "field": "licenseExp",
+      "fieldTemplate": [
+        {
+          "id": 3,
+          "field": "recipient.expireDate"
+        }
+      ]
+    }
+  ],
+  "signature": "e241b709c1bf8438c73bb85efb310ebc576eec645a735d78090b1a8fbca3394b5374024cdec6f86d5ef76d8ea204292bdc64b6dd2b564ef6f3f2b13c60d39f191c"
+}

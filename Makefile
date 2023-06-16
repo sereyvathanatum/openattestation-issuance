@@ -1,5 +1,5 @@
 CAMDIGIKEY_DIR = ./wrapped-document/camdigikey/*
-MPWT_DIR = ./wrapped-document//mpwt/*
+MPWT_DIR = ./wrapped-document/mpwt/*
 attest:
 	rm -rf ./wrapped-document
 	rm -rf ./obfuscated
@@ -16,4 +16,7 @@ attest:
 	for file in $(MPWT_DIR) ; do \
 		open-attestation filter ./wrapped-document/mpwt/$$(basename $${file}) ./obfuscated/mpwt/$$(basename $${file}) recipient.id recipient.dateOfBirth recipient.gender recipient.firstName recipient.lastName recipient.idNumber recipient.passportNumber recipient.nationality recipient.specialCondition; \
 	done
-	open-attestation filter documents/moeys-1.json ./obfuscated/moeys/moeys-1.json certificate.barcode certificate.center certificate.examDate certificate.id certificate.metadata certificate.program certificate.rank certificate.signatureDate certificate.subjectGrades certificate.type id recipient
+	open-attestation filter documents/moeys-1.json ./obfuscated/moeys/moeys-1.json certificate.barcode certificate.center certificate.examDate certificate.id certificate.metadata certificate.program certificate.signatureDate certificate.subjectGrades certificate.type id recipient
+clean:
+	rm -rf ./wrapped-document
+	rm -rf ./obfuscated

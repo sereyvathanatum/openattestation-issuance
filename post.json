@@ -1,0 +1,257 @@
+{
+  "userWallet": "0x19799679DDe6912fe75d9821831e8778CC8223A6",
+  "walletType": "camdigikey",
+  "sesId": "1b0dc125-6f45-456c-88d0-5fb359f8b910",
+  "inputs": [
+    {
+      "field": "firstName",
+      "value": "Mengsar",
+      "templateId": 2
+    },
+    {
+      "field": "lastName",
+      "value": "Hour",
+      "templateId": 2
+    },
+    {
+      "field": "dob",
+      "value": "2004-10-16",
+      "templateId": 2
+    },
+    {
+      "field": "gender",
+      "value": "M",
+      "templateId": 2
+    },
+    {
+      "field": "idNumber",
+      "value": "010459256",
+      "templateId": 2
+    },
+    {
+      "field": "bac2Grade",
+      "value": "C",
+      "templateId": 1
+    },
+    {
+      "field": "bac2Score",
+      "value": "91.262",
+      "templateId": 1
+    },
+    {
+      "field": "bac2Year",
+      "value": "2022",
+      "templateId": 1
+    },
+    {
+      "field": "licenseCategory",
+      "value": "B",
+      "templateId": 3
+    },
+    {
+      "field": "licenseIss",
+      "value": "2018-02-11",
+      "templateId": 3
+    },
+    {
+      "field": "licenseExp",
+      "value": "2024-02-11",
+      "templateId": 3
+    }
+  ],
+  "attestations": [
+    {
+      "id": 1,
+      "name": "MOEYS_BACII_CERTIFICATE",
+      "content": {
+        "data": {
+          "$template": {
+            "name": "18a7af85-11a1-4458-a82a-9a8d43425e3f:string:MOEYS_BACII_CERTIFICATE",
+            "type": "7aa28ba2-315a-4dda-a199-af1ec28bfe8a:string:EMBEDDED_RENDERER",
+            "url": "411723bd-a369-42dd-aecf-742d1bfde703:string:https://renderer.verify.gov.kh"
+          },
+          "certificate": {
+            "grade": "19f13939-9d00-4fe9-89f8-fb9a6ca5c11d:string:C",
+            "rank": "49c901f0-c7de-4b66-8738-c592ca6d0711:string:91.262",
+            "year": "1ef99ba5-e6e4-41e6-b889-ee6f4fc537e6:string:២០២២"
+          },
+          "issuers": [
+            {
+              "documentStore": "9c0c9b20-1f3a-4881-a3b7-6f64bbe6fe5c:string:0xD2225E6C4a2004C9110A31A4E343593966d2567B",
+              "identityProof": {
+                "location": "0d95aac4-61d6-427b-a519-2a8626bf6b63:string:verify.gov.kh",
+                "type": "116b9355-10fc-441d-ac83-ba3bc09424f7:string:DNS-TXT"
+              },
+              "name": "b3a34c37-5df5-4d69-87bc-1c15f93311d4:string:Digital Government Committee",
+              "url": "8eceb7e8-38be-42d7-9a33-ec8fa0c6c9e5:string:https://verify.gov.kh"
+            }
+          ]
+        },
+        "signature": {
+          "merkleRoot": "84cf4daf109458c2be18b8f081d2dcdc359b4b04c82bff7e18f69f57fe251945",
+          "proof": [
+            "625ba0094089071c2553ce74d7584d62bdf17827b855f74fc0098627434079ec",
+            "17de4331f35aaa2e746e1add8a70f5e38082ae5037f6d52f3ab100a3e85c0ee5",
+            "00b8668caaa2f1b3d480a87d104f14673a7ffaa707ef16269efe1a7f0e813ea8",
+            "b27967b4e6fb12e853a1c2ba75048d518155b28a194676fbe4ed736c73dbba05",
+            "06b684b5927a90aaace8093cc1a2dd61720c35f3d576bcc9ae2a330129c508c6",
+            "ec06ea8b868e040567f425d54e301e5c4543c0294fcc3c668c3c80614f76fbbc",
+            "23b3041ce4719afe6060e4952fcd5b3c6f800901413ea7e5ba1143a007a425d8",
+            "d0461f9be919c1b3d7a45842e30c423d60878ddd4fd5de264acdb337e2e68361",
+            "59ec0717c65de83eca07c599c6258317cb5c78179ba34dd556886d7ee3c13611",
+            "32c0b8890a57bc9a79b8b1917312bd95b63c792c3586153b57b396cee00d52aa",
+            "3591143e1988acd49dcc043299454a664b9cc9095b6b15466c22a5ee6f4b501b",
+            "168a5f6c9a2b8ecb6f6c260ca84b574c29860134e99c62b5b93301926f991439",
+            "386b97cf2512914c5b3d7b5e538066a2eb290b04aadbbc065fa134a467c207ec",
+            "6c5c417876ce5688a9570db30693411740405916215c6232a19d8bea84ba8f00",
+            "a7c66c80a9d233ea46e31b1aee3e3b091ee7aad37d82acdeedfa783b24a84cca",
+            "2a647e46321ed25142679cf6a3f346b5ac2104afc341f9a8a8e7ed2ea32dd146",
+            "c3a0809bbe52c00ecd2ea12e9d111d19a91828c5ab6861254d56d72fe0f34923"
+          ],
+          "targetHash": "5059398136de28f74c31c7e3d7ca024f074e53792211a42863a3c8300aa20faf",
+          "type": "SHA3MerkleProof"
+        },
+        "version": "https://schema.openattestation.com/2.0/schema.json",
+        "privacy": {
+          "obfuscatedData": [
+            "a02b05408ce4d64b68881b4e984f2cfc440c33894aa4580d76f2d581e44f7df4",
+            "b3f96fe4a6c8e4a642d73bd477139ab7d2d6a5b04555bf0f721427734e6e3b4d",
+            "848aa5ab3049f40fbc8fe64043f5585084841fc3006fb1f498098a9477746a35",
+            "feffc85db4afa5e8a1c496b2d8b46751e1906ba202d8a3a2fe22852d820595d2",
+            "f4465cabb731932a9a490369d07c5b0a91c13bab55c67e0a97cd4c95d2bfcdc0",
+            "35af26679cb1c580e89e5dd71b88f411a5c099d13d09ddaf816a086a891db9db",
+            "528094e99ab265e978f83be19ce57da76533d0a0b39b897326be16b966b3b2a6",
+            "1610f10c27ebd40fdaa1b1e21aa180926d31a0e35f25f5bb4db2ef925761df85",
+            "9d876e51eac21079f5da8b58001a712cd71d33b4017cb468d7f2e4dc3d96641b",
+            "5150a7b142bacf08a5b59441959605f7388f485fff3b851968d296a30c59b10f",
+            "1229a6f6b5a9974fb5b6084c405418ed43a2811d36c3a50d9c8e92a3cc941ea2",
+            "d555e5eb7ad79605a50a03d8983baa66248b7187a8cb27ccce0264ddd7e6a23d",
+            "59eb7dbc492b21d9fd7fbe4ea66722a063580b2e61614f5bed99aeff92905755",
+            "511cf1cd6c96d25610a7bae2e96bf81d811a55a912a4aed0f35f814f92cba603",
+            "ccaafbe17adc7a320d52d6207e750eade46eedd2b1b7d1c29c50f4d6fcd5e168",
+            "ef1dab316c52f5dceb917c38eaa2a924b3749186862a1a972f1dc6a3faa571e4",
+            "ad021d2cc4afc3621db1eb63ff20ae20c1ae3697f32eafe644f54d1670fb0d38",
+            "aab696849e0822b9114556322b632de89008e6743be651de72ad2798be969db5",
+            "93fb5fd9a5e1fea8e386c486036ddf5c76cc94c895dbea574fac8f20e8163a02",
+            "151fbfe2c75fb459c3efae73df4cab05723a6173276965463d18cb6ababd59dd",
+            "22f3b2dba19d7e2a383738ce3e48932415d5b63f12f12cc484e13520a5f42c23",
+            "f8e2c44c82084426be223c9e8e10382340cf28d1e3985953155b72a4e9dd5f16",
+            "176acf5e6c5872159bec2a75b7e7bc530b0857cad5c624a8573d470e7d6d6b47",
+            "6c3c583bd15f692056dd76f083f1953f2c29a1bea6d2e9da499994d2d1acfa3d",
+            "dcafc3b28cb1985a3f67b45c0ec7baa245d6d7e8e1fef942445f13ac13488d9a",
+            "e276a933147a43a04a48f94897cb32ebc5f567e5f9df1bb2ee725d8f427fd801",
+            "99d6008199f9bec2d3901b90c088efa657e5874496209648bc2d688cb688d2a2",
+            "43f18d17623e5b644e320d42a193e16adcb6c4025a08562348d931f297aedf27",
+            "4483663b0c16bcb157f4bfb07ba74ebc6f61f0e423a97b01b504b5dcaba153b2",
+            "ba2504a02350de2d12a3e34a0c603c8bd3d6df3a6a0de201f6bc80144c95593f",
+            "0507cc37d5c6ae223328cbdd72f006e95e240b4140ad3b34685e5360bb0d59f5",
+            "28fec402674c1caadf4e4cf2583db66cd35125dcfd6cc4510aaf9056c0006308",
+            "c63b717d6cc3be96f5a8384ec5b04b4763bf07084b101adf4d4359b10ebb1c46",
+            "f411f748021f96cd7cf08005ea0f53157e5d2eaa6cbe8a71d026ce25f1cd9729"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "CAMDIGIKEY_KYC_ATTESTATION",
+      "content": {
+        "version": "https://schema.openattestation.com/2.0/schema.json",
+        "data": {
+          "$template": {
+            "name": "c6cc0bff-c5d2-4490-a111-bd0c6c93249d:string:CAMDIGIKEY_KYC_ATTESTATION",
+            "type": "ec23b82a-9f79-41bd-a43b-bca0e80e910f:string:EMBEDDED_RENDERER",
+            "url": "2b0a4aa9-fecc-418f-8ac9-305c8ebb3bb9:string:https://renderer.camdigikey.gov.kh"
+          },
+          "id": "1e368f66-97e8-4f08-b490-2be8166e3197:string:5777f055-4f6f-41d9-8ac4-9b0e7fc03157",
+          "issuers": [
+            {
+              "documentStore": "19484356-f31a-4857-a6cb-68a755d10e0c:string:0xcDa703b6eB604DC6583C0804A1362a6258546784",
+              "identityProof": {
+                "location": "c1c63c04-3bac-4dc4-928c-b0237dd82c38:string:attestation.camdigikey.gov.kh",
+                "type": "b2ccfa71-e2b8-44f2-a06b-8ced67872f21:string:DNS-TXT"
+              },
+              "name": "37ab64d1-8962-4a8b-a44c-c71475d4da32:string:CamDigiKey",
+              "url": "88a9c63e-515c-475a-b294-7afb4504a410:string:https://attestation.camdigikey.gov.kh"
+            }
+          ],
+          "recipient": {
+            "dateOfBirth": "654ad04c-7b60-4cd2-b544-80c5e55f209d:string:2004-10-16",
+            "firstName": "b67ff0dc-88f9-451a-8616-30e0b07ec52b:string:Mengsar",
+            "lastName": "d057fd96-b6ee-467f-81e1-5b577f6b4645:string:Hour"
+          }
+        },
+        "signature": {
+          "type": "SHA3MerkleProof",
+          "targetHash": "23c0f5e25266e3149fa1967eb8d0294e9e8b3245cf2b6a83d4054c3817abb7da",
+          "proof": [
+            "e81c0e346736e59039355a8b2f5153fec9bec4e8d1da0dfef9877d29b1225830"
+          ],
+          "merkleRoot": "50856515efac07b6424370a19fb106f8587f302db0e3e6b6bbaabea3283d0177"
+        },
+        "privacy": {
+          "obfuscatedData": [
+            "b884dbc0e29960ae5242741656a2f5a2ce7e5c808db13518404b7c5d10485803",
+            "4b79e9e45ae3bd270f2e01e92b362a12f40bfad3a03d195f446cb4871f7cedce",
+            "fa9336b441ecc86c5790bd1d466c07a16fc71c8087b77b302f2198419baf89ad",
+            "4a2447bbfe435e6aaa962060d30a19607d6f05eb53e2d6bb0f2f2b140641fe2e",
+            "16114a4ef6b6ab1f4879706f6bc4d4f195b7f7d1b35bd8b3e5caf6669a242529",
+            "5cb9c6da2a454ca2ed01de89982581024cd4b76498b64a81f0443b73ef26de3d"
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "MPWT_DRIVING_LICENSE",
+      "content": {
+        "version": "https://schema.openattestation.com/2.0/schema.json",
+        "data": {
+          "$template": {
+            "name": "7d506622-8e81-4206-8c01-05c8cfb5f509:string:MPWT_DRIVING_LICENSE",
+            "type": "91fde437-28c9-4c9b-b6e7-ed422dccea2d:string:EMBEDDED_RENDERER",
+            "url": "5d07b1f0-5177-4427-a079-bb4d8745312e:string:https://attestation.mpwt.gov.kh"
+          },
+          "id": "633ea7c2-a9e5-4010-8639-a659595ee8ff:string:e0825708-7c66-4b56-b6a0-56b7673043b6",
+          "issuers": [
+            {
+              "documentStore": "aa74190d-8c71-4951-9d43-10e406b93a16:string:0x02CBf49b94A1893844dD65addb350c8d2894B61C",
+              "identityProof": {
+                "location": "29aad596-ecd4-4caf-be91-dd1d8ae8c027:string:attestation.mpwt.gov.kh",
+                "type": "52246c8c-bd0e-4922-82f1-1ec4e0ab3bdc:string:DNS-TXT"
+              },
+              "name": "469d8693-6c0a-4077-9538-ceb46786ff44:string:CamDigiKey",
+              "url": "7fdbc65b-df9b-48eb-b57e-5d15b412df6f:string:https://attestation.mpwt.gov.kh"
+            }
+          ],
+          "recipient": {
+            "issueDate": "16b8ae69-4f9f-4434-b7b1-bdd8fab3b320:string:2018-02-11",
+            "expireDate": "5f723c91-d408-48b2-b38c-18135234d802:string:2024-02-11",
+            "category": "3db71e20-70e3-4dd1-82b8-7c6debdc9d5b:string:B"
+          }
+        },
+        "signature": {
+          "type": "SHA3MerkleProof",
+          "targetHash": "ed8e47556dfbad72757630ffb66e110c39c40e9559c6be8c81f16c2daeadf3be",
+          "proof": [
+            "66fdabb52b0600872c887a89eed1f287c2b011136f4b1d095bf15a1bab9fda99"
+          ],
+          "merkleRoot": "35a6ff5731bb3b5ae3e8b8877754864ebfd619e0b6783ad2982625bcc3d309a8"
+        },
+        "privacy": {
+          "obfuscatedData": [
+            "aa3e43dd85ec23c792b964ad1daab3a89e275f0a65baaee7a0947876175ce2b2",
+            "aa66fe301ec8936e4cdafe5f8042b74f080bfdd7b8b842294c9fc14417ea05b9",
+            "1f4aeafd9ed2acc6d8a471ed5501d4ccd7ef40fba93b233150810081e5f48e1c",
+            "fae72753a2e9d56caed4c04f3475000e2492dd4aec6a70ac51af1ec3c591949b",
+            "f0f3cfe9c9ceac830b6743832ccf9136a315931340691e8d70ee053baa062848",
+            "70c88c3529f40545ddad7a8b6bc9720d364c322bb8c35082d07aa9fa1afa80aa",
+            "6bb215bac8830dbd1667190180ca8e123dd3d407fb36f23da208aae9cc34abaf",
+            "8bac16622ef3b7c6a9eb0316850a20762d1516de2ba8257e6ebf54dd95e7097d"
+          ]
+        }
+      }
+    }
+  ],
+  "signature": "e241b709c1bf8438c73bb85efb310ebc576eec645a735d78090b1a8fbca3394b5374024cdec6f86d5ef76d8ea204292bdc64b6dd2b564ef6f3f2b13c60d39f191c"
+}
