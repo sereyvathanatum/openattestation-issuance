@@ -1,0 +1,44 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "$template": {
+      "name": "d8a8dc37-f273-4870-8579-b93ab2a6d211:string:EKYC_INTEROP_STANDARD_V1",
+      "type": "9b71783c-f4db-4a11-a6a1-fff24af6342e:string:EMBEDDED_RENDERER"
+    },
+    "user_info": {
+      "phone_number": "4593c206-4c51-4103-8b6c-3c60aaf09327:string:+85512987456",
+      "first_name": "c7200471-c2ad-457e-af6e-afb3384ed7b9:string:Somnang",
+      "last_name": "7a5e52f0-0e44-401e-87db-89fdb7e0f8e0:string:Mean",
+      "document_type": "d18c90f4-264b-43f7-97e8-0962e194e63a:string:KM_ID",
+      "document_id": "eb928000-55e0-47b3-bd84-df75bb5979b5:string:978564321",
+      "email": "ac669991-7fec-4bb7-8db1-42f55e31c14e:string:somnangmean4321@gmail.com",
+      "dob": "2facef39-748d-41b2-982c-754da640e6b6:string:1976-10-11",
+      "gender": "959a0718-8fc7-4950-8af8-73a437c206bc:string:M",
+      "issue_date": "0977a949-cd02-4755-a3c7-78226d79b756:string:2015-03-21",
+      "expiry_date": "19fa55e3-8e7d-4e73-806e-64068ba3f316:string:2025-03-20"
+    },
+    "issuers": [
+      {
+        "documentStore": "e71924d9-a34a-4aaa-8704-066d63903ce0:string:0xcdf4822C3028EcDF82277F617cbb4f7f7d5932B0",
+        "identityProof": {
+          "location": "f53712ab-523d-4aa6-a34e-f71b621e1504:string:ekycis-demo.svathana.com",
+          "type": "18e48dd0-6607-47cd-970a-938764e9fcb3:string:DNS-TXT"
+        },
+        "name": "41238315-bd71-488b-ba3c-ff4bc5ea6f31:string:EKYC Interoperability Standard - Demo",
+        "url": "00e1aba5-1afd-4196-ad49-d1cbd4bf733b:string:https://ekycis-demo.svathana.com"
+      }
+    ]
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "62549cfc69bc630c791fa93121ffa0b0f5b4068d1ce899d0659b5c0c0f1c916b",
+    "proof": [],
+    "merkleRoot": "62549cfc69bc630c791fa93121ffa0b0f5b4068d1ce899d0659b5c0c0f1c916b"
+  },
+  "privacy": {
+    "obfuscatedData": [
+      "4685daf9b7ed536624c1f64c67b6de4ac7e469d14f8b7dbd2c1d933b8dd9c3a3",
+      "d5f47de3265c5ebb336680462f95d4fbc04852c43eded7d04df07571c81c528b"
+    ]
+  }
+}

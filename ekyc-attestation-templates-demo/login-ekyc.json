@@ -1,0 +1,44 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "$template": {
+      "name": "d8a8dc37-f273-4870-8579-b93ab2a6d211:string:EKYC_INTEROP_STANDARD_V1",
+      "type": "9b71783c-f4db-4a11-a6a1-fff24af6342e:string:EMBEDDED_RENDERER"
+    },
+    "user_info": {
+      "phone_number": "4593c206-4c51-4103-8b6c-3c60aaf09327:string:+85512987456",
+      "first_name": "c7200471-c2ad-457e-af6e-afb3384ed7b9:string:Somnang",
+      "last_name": "7a5e52f0-0e44-401e-87db-89fdb7e0f8e0:string:Mean"
+    },
+    "issuers": [
+      {
+        "documentStore": "e71924d9-a34a-4aaa-8704-066d63903ce0:string:0xcdf4822C3028EcDF82277F617cbb4f7f7d5932B0",
+        "identityProof": {
+          "location": "f53712ab-523d-4aa6-a34e-f71b621e1504:string:ekycis-demo.svathana.com",
+          "type": "18e48dd0-6607-47cd-970a-938764e9fcb3:string:DNS-TXT"
+        },
+        "name": "41238315-bd71-488b-ba3c-ff4bc5ea6f31:string:EKYC Interoperability Standard - Demo",
+        "url": "00e1aba5-1afd-4196-ad49-d1cbd4bf733b:string:https://ekycis-demo.svathana.com"
+      }
+    ]
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "62549cfc69bc630c791fa93121ffa0b0f5b4068d1ce899d0659b5c0c0f1c916b",
+    "proof": [],
+    "merkleRoot": "62549cfc69bc630c791fa93121ffa0b0f5b4068d1ce899d0659b5c0c0f1c916b"
+  },
+  "privacy": {
+    "obfuscatedData": [
+      "4685daf9b7ed536624c1f64c67b6de4ac7e469d14f8b7dbd2c1d933b8dd9c3a3",
+      "d5f47de3265c5ebb336680462f95d4fbc04852c43eded7d04df07571c81c528b",
+      "6d6cc22046843838e6e1e81b9993b1d6164b3613408ed6a02d3f6cd7142fb16e",
+      "fc1eb1d249482714c6fb58d18112f62bf5af1d55f8a88d1803422bdda52bcff2",
+      "8c89c8dccbd1f286b55fd039859a430d5d2fd1e58472cc71b6ad80799cb16f82",
+      "8fc3042974d626be95f4308187590f51d1cd4f6f44c341424e2477601bf0cdb6",
+      "fa9ff1a220af1fba3fa8b00c9cd38f25d73e3c6379aa753678afc9836323080b",
+      "c24f65570d3ea0065b5081ccbaf681135e4efc8abfc813bd81f751b90a59bcda",
+      "8190932381252eb0b64d71e85ae68291922817f1d19881600cdaeb18f4937ca7"
+    ]
+  }
+}
